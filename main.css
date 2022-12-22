@@ -1,5 +1,6 @@
 body{
-    background-color: aqua;
+    background-image: url(./assets/Background.jpg);
+    background-color: #cccccc;
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
@@ -49,4 +50,3 @@ h4{
     margin-left: 0;
     font-family: 'Indie Flower', cursive;
 }
-
