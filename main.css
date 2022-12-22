@@ -1,1 +1,9 @@
 /* CSS File */
+body {
+    background-image: url(./assets/Background.jpg);
+    background-color: #cccccc;
+}
+
+.primary-header {
+    text-align: center;
+}
