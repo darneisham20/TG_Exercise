@@ -1,9 +1,52 @@
-/* CSS File */
-body {
+body{
     background-image: url(./assets/Background.jpg);
     background-color: #cccccc;
+    font-family: 'Love Ya Like A Sister', cursive;
 }
 
-.primary-header {
-    text-align: center;
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    margin-bottom: -2.5vh;
+    margin-top: -1vh;
+    font-size: 80px;
+}
+
+header h3{
+    font-size: 40px;
+    padding: 0;
+}
+
+h4{
+    font-size: xx-large;
+}
+
+.teamMember{
+    border: 2px solid black;
+}
+
+.teamMember ul{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        column-gap: 20px;
+        row-gap: 30px;
+}
+
+.teamMember ul li{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    margin-left: 0;
+    font-family: 'Indie Flower', cursive;
 }
