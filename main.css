@@ -1,5 +1,8 @@
 body{
-    background-color: aqua;
+    background-image: url(./assets/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #cccccc;
     font-family: 'Love Ya Like A Sister', cursive;
 }
 
