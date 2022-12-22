@@ -30,6 +30,16 @@ h4{
 
 .teamMember{
     border: 2px solid black;
+    max-width: 25vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+
+}
+
+.trainerPhoto{
+    height: 300px;
+    width: 300px;
+
 }
 
 .teamMember ul{
@@ -41,9 +51,11 @@ h4{
         row-gap: 30px;
 }
 
+
 .teamMember ul li{
     height: 100px;
     width: 100px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,4 +63,12 @@ h4{
     align-content: center;
     margin-left: 0;
     font-family: 'Indie Flower', cursive;
+    margin-top: 10px;
 }
+
+.teamMember li label{
+    font-family: 'Love Ya Like A Sister', cursive;
+    float: center;
+
+}
+
